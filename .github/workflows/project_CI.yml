@@ -20,6 +20,7 @@ jobs:
       run: |
         pip install pipenv
         pipenv sync --dev
+        pipenv install codecov
 
     - name: Lint com flake8
       run: |
@@ -27,4 +28,10 @@ jobs:
 
     - name: Testes automáticos com pytest
       run: |
-        pipenv run pytest Django_Dev-Pro
+        pipenv run pytest Django_Dev-Pro --cov=Django_Dev-Pro
+
+    - name: Postando cobertura de código com Codecov
+      env:
+        CODECOV_TOKEN: "efa0c093-7276-4675-a216-f67ab72c25c1"
+      run: |
+        pipenv run codecov
