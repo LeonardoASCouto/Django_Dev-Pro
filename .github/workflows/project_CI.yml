@@ -1,4 +1,4 @@
-name: Python Project
+name: Status da Build
 
 on: pull_request
 
