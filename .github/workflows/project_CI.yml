@@ -28,7 +28,7 @@ jobs:
 
     - name: Testes automáticos com pytest
       run: |
-        pipenv run pytest Django_Dev-Pro --cov=Django_Dev-Pro
+        pipenv run pytest Django_DevPro --cov=Django_DevPro
 
     - name: Postando cobertura de código com Codecov
       env:
