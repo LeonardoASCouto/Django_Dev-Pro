@@ -2,7 +2,9 @@
 
 Meu primeiro Projeto Python utilizando o framework Django.
 
-Projeto desenvolvido através do Curso Django da [Python Pro](https://pythonpro.com.br/).
+Aplicação disponível na plataforma em nuvem como um serviço [Heroku](https://djangofirstleo.herokuapp.com/)
+
+Projeto desenvolvido através do módulo Django da [Python Pro](https://pythonpro.com.br/).
 
 ---
 [![Python 3](https://pyup.io/repos/github/LeonardoASCouto/Django_Dev-Pro/python-3-shield.svg)](https://pyup.io/repos/github/LeonardoASCouto/Django_Dev-Pro/)
