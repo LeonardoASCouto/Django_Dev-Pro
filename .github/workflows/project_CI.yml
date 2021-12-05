@@ -22,6 +22,10 @@ jobs:
         pipenv sync --dev
         pipenv install codecov
 
+    - name: Cópia de variáveis de configurações para arquivo .env
+      run: |
+        cp contrib/env-sample .env
+
     - name: Lint com flake8
       run: |
         pipenv run flake8 --max-line-length=120 --exclude=.venv .
