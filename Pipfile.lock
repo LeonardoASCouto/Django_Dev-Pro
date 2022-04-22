@@ -88,11 +88,10 @@
         },
         "pipenv": {
             "hashes": [
-                "sha256:10ee98b58399e9bace042f3dc9644fdfc9f1a27f0a17a03642b7d24e533ee0ac",
-                "sha256:1bde859e8bbd1d21d503fd995bc0170048d6da7686ab885f074592c99a16e8f3"
+                "sha256:3f93229de25a4c3a658249f48407b80f347f076640a9fd50c476a2876212f781",
+                "sha256:a46e662d6b08f79495040b689e21ba833068c364ac79e8a616b87154770a57e4"
             ],
-            "index": "pypi",
-            "version": "==2021.11.23"
+            "version": "==2022.4.21"
         },
         "platformdirs": {
             "hashes": [
