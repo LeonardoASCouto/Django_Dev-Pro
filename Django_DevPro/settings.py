@@ -143,6 +143,8 @@ if AWS_ACCESS_KEY_ID:
     AWS_S3_CUSTOM_DOMAIN = None
 
     COLLECTFAST_ENABLED = True
+    STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+    COLLECTFAST_STRATEGY = 'collectfast.strategies.boto3.Boto3Strategy'
 
     AWS_DEFAULT_ACL = 'private'
 
