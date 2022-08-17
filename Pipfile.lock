@@ -127,12 +127,8 @@
             "version": "==22.1.2"
         },
         "pipenv": {
-            "hashes": [
-                "sha256:18420fbae2851d2b9d70d1e00f77a8c55d09704a177fe872a0a2da56e98eb018",
-                "sha256:55c35a1742d568bb0e521099c5fd7bfd373d41f088160f4ffdd4e6e703d0fd3b"
-            ],
-            "index": "pypi",
-            "version": "==2022.7.4"
+            "hashes": [],
+            "version": "==2022.8.17"
         },
         "platformdirs": {
             "hashes": [
