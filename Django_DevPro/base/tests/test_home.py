@@ -1,12 +1,22 @@
+import pytest
 from django.test import Client
 from Django_DevPro.django_assertions import assert_contains
+from django.urls import reverse
 
 
-def test_status_code(client: Client):
-    resposta = client.get('/')
+@pytest.fixture
+def resposta(client: Client):
+    resposta = client.get(reverse('home'))
+    return resposta
+
+
+def test_status_code(resposta):
     assert resposta.status_code == 200
 
 
-def test_title(client: Client):
-    resposta = client.get('/')
+def test_title(resposta):
     assert_contains(resposta, '<title>Python Pro</title>')
+
+
+def test_home_link(resposta):
+    assert_contains(resposta, f'href="{reverse("home")}">Python Pro</a>')
