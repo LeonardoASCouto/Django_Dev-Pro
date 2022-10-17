@@ -20,6 +20,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('Django_DevPro.base.urls')),
+    path('aperitivos/', include('Django_DevPro.aperitivos.urls')),
 ]
 
 if settings.DEBUG:
