@@ -20,3 +20,7 @@ def test_title(resposta):
 
 def test_home_link(resposta):
     assert_contains(resposta, f'href="{reverse("base:home")}">Python Pro</a>')
+
+
+def test_home_developer_name(resposta):
+    assert_contains(resposta, 'Leonardo Couto')
