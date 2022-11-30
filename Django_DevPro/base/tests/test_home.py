@@ -5,7 +5,7 @@ from django.urls import reverse
 
 
 @pytest.fixture
-def resposta(client: Client):
+def resposta(client: Client, db):
     resposta = client.get(reverse('base:home'))
     return resposta
 
