@@ -38,7 +38,7 @@ jobs:
 
     - name: Lint com flake8
       run: |
-        pipenv run flake8 --max-line-length=120 --exclude=.venv --ignore=F401
+        pipenv run flake8 --max-line-length=120 --exclude=.venv --ignore=F401,W503
 
     - name: Testes automáticos com pytest
       run: |
