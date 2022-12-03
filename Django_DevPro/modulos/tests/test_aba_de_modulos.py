@@ -18,6 +18,11 @@ def resposta(client, modulos):
     return resposta
 
 
-def test_home_developer_name(resposta, modulos):
-    for modulo in modulos:
-        assert_contains(resposta, modulo.titulo)
+# def test_titulo_dos_modulos(resposta, modulos):
+#     for modulo in modulos:
+#         assert_contains(resposta, modulo.titulo)
+#
+#
+# def test_link_dos_modulos(resposta, modulos):
+#     for modulo in modulos:
+#         assert_contains(resposta, modulo.get_absolute_url())
