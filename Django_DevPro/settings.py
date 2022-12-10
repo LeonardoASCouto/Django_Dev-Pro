@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'Django_DevPro.aperitivos',
     'Django_DevPro.modulos',
     'ordered_model',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
