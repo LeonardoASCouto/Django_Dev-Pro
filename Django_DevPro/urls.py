@@ -22,6 +22,7 @@ urlpatterns = [
     path('', include('Django_DevPro.base.urls')),
     path('aperitivos/', include('Django_DevPro.aperitivos.urls')),
     path('modulos/', include('Django_DevPro.modulos.urls')),
+    path('turmas/', include('Django_DevPro.turmas.urls')),
 ]
 
 if settings.DEBUG:

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'collectfast',
     'django.contrib.staticfiles',
     'Django_DevPro.base',
+    'Django_DevPro.turmas',
     'Django_DevPro.aperitivos',
     'Django_DevPro.modulos',
     'ordered_model',
