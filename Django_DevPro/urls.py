@@ -19,6 +19,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('contas/', include('django.contrib.auth.urls')),
     path('', include('Django_DevPro.base.urls')),
     path('aperitivos/', include('Django_DevPro.aperitivos.urls')),
     path('modulos/', include('Django_DevPro.modulos.urls')),
